@@ -1,0 +1,38 @@
+pipeline
+# Eclipse
+.classpath
+.project
+.settings/
+.settings
+.apt_generated
+.metadata
+.factorypath
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/Dockerfile_local
+/runapi.sh
+
+*.orig
+*.bak
+*.versionsBackup
+
+# Java
+*.class
+
+# SonarQube
+.scannerwork
+
+# Misc
+build
+*.log.*
+**.log*
