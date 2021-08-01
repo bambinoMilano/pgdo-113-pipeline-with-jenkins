@@ -1,12 +1,8 @@
 package com.bambino.pipeline.jenkins.pipelinejenkins;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import org.springframework.boot.test.context.SpringBootTest;
-
-
-@SpringBootTest
-class PipelineJenkinsApplicationTests {
+public class PipelineJenkinsApplicationTests {
 
 	@Test
 	public void contextLoads() {
